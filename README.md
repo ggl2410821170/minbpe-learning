@@ -1,3 +1,5 @@
+> 本仓库为开源学习复现（AI 辅助），新增内容与实测结果见 [REPRODUCTION.md](REPRODUCTION.md)。原作者及许可证保留。
+
 # minbpe
 
 Minimal, clean code for the (byte-level) Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization. The BPE algorithm is "byte-level" because it runs on UTF-8 encoded strings.

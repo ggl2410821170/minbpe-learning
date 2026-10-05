@@ -1,0 +1,240 @@
+{
+  "corpus": "Synthetic educational corpus; no patient data.",
+  "limitation": "Tiny illustrative benchmark; not representative of medical NLP performance.",
+  "runs": [
+    {
+      "tokenizer": "BasicTokenizer",
+      "vocab_size": 256,
+      "round_trip_checks": 6,
+      "save_load_checks": 6,
+      "held_out_utf8_bytes_per_token": 1.0,
+      "samples": [
+        {
+          "text": "模型预测结果需要验证，医学研究重视实验。",
+          "utf8_bytes": 60,
+          "tokens": 60
+        },
+        {
+          "text": "Machine learning research needs careful evaluation.",
+          "utf8_bytes": 51,
+          "tokens": 51
+        },
+        {
+          "text": "AI与医学：score=0.87; next step? 🧠",
+          "utf8_bytes": 41,
+          "tokens": 41
+        },
+        {
+          "text": "",
+          "utf8_bytes": 0,
+          "tokens": 0
+        },
+        {
+          "text": "?",
+          "utf8_bytes": 1,
+          "tokens": 1
+        },
+        {
+          "text": "你好，世界！🙂",
+          "utf8_bytes": 22,
+          "tokens": 22
+        }
+      ]
+    },
+    {
+      "tokenizer": "BasicTokenizer",
+      "vocab_size": 280,
+      "round_trip_checks": 6,
+      "save_load_checks": 6,
+      "held_out_utf8_bytes_per_token": 1.1513157894736843,
+      "samples": [
+        {
+          "text": "模型预测结果需要验证，医学研究重视实验。",
+          "utf8_bytes": 60,
+          "tokens": 54
+        },
+        {
+          "text": "Machine learning research needs careful evaluation.",
+          "utf8_bytes": 51,
+          "tokens": 38
+        },
+        {
+          "text": "AI与医学：score=0.87; next step? 🧠",
+          "utf8_bytes": 41,
+          "tokens": 40
+        },
+        {
+          "text": "",
+          "utf8_bytes": 0,
+          "tokens": 0
+        },
+        {
+          "text": "?",
+          "utf8_bytes": 1,
+          "tokens": 1
+        },
+        {
+          "text": "你好，世界！🙂",
+          "utf8_bytes": 22,
+          "tokens": 19
+        }
+      ]
+    },
+    {
+      "tokenizer": "BasicTokenizer",
+      "vocab_size": 320,
+      "round_trip_checks": 6,
+      "save_load_checks": 6,
+      "held_out_utf8_bytes_per_token": 1.3461538461538463,
+      "samples": [
+        {
+          "text": "模型预测结果需要验证，医学研究重视实验。",
+          "utf8_bytes": 60,
+          "tokens": 40
+        },
+        {
+          "text": "Machine learning research needs careful evaluation.",
+          "utf8_bytes": 51,
+          "tokens": 34
+        },
+        {
+          "text": "AI与医学：score=0.87; next step? 🧠",
+          "utf8_bytes": 41,
+          "tokens": 36
+        },
+        {
+          "text": "",
+          "utf8_bytes": 0,
+          "tokens": 0
+        },
+        {
+          "text": "?",
+          "utf8_bytes": 1,
+          "tokens": 1
+        },
+        {
+          "text": "你好，世界！🙂",
+          "utf8_bytes": 22,
+          "tokens": 19
+        }
+      ]
+    },
+    {
+      "tokenizer": "RegexTokenizer",
+      "vocab_size": 256,
+      "round_trip_checks": 6,
+      "save_load_checks": 6,
+      "held_out_utf8_bytes_per_token": 1.0,
+      "samples": [
+        {
+          "text": "模型预测结果需要验证，医学研究重视实验。",
+          "utf8_bytes": 60,
+          "tokens": 60
+        },
+        {
+          "text": "Machine learning research needs careful evaluation.",
+          "utf8_bytes": 51,
+          "tokens": 51
+        },
+        {
+          "text": "AI与医学：score=0.87; next step? 🧠",
+          "utf8_bytes": 41,
+          "tokens": 41
+        },
+        {
+          "text": "",
+          "utf8_bytes": 0,
+          "tokens": 0
+        },
+        {
+          "text": "?",
+          "utf8_bytes": 1,
+          "tokens": 1
+        },
+        {
+          "text": "你好，世界！🙂",
+          "utf8_bytes": 22,
+          "tokens": 22
+        }
+      ]
+    },
+    {
+      "tokenizer": "RegexTokenizer",
+      "vocab_size": 280,
+      "round_trip_checks": 6,
+      "save_load_checks": 6,
+      "held_out_utf8_bytes_per_token": 1.1437908496732025,
+      "samples": [
+        {
+          "text": "模型预测结果需要验证，医学研究重视实验。",
+          "utf8_bytes": 60,
+          "tokens": 54
+        },
+        {
+          "text": "Machine learning research needs careful evaluation.",
+          "utf8_bytes": 51,
+          "tokens": 39
+        },
+        {
+          "text": "AI与医学：score=0.87; next step? 🧠",
+          "utf8_bytes": 41,
+          "tokens": 40
+        },
+        {
+          "text": "",
+          "utf8_bytes": 0,
+          "tokens": 0
+        },
+        {
+          "text": "?",
+          "utf8_bytes": 1,
+          "tokens": 1
+        },
+        {
+          "text": "你好，世界！🙂",
+          "utf8_bytes": 22,
+          "tokens": 19
+        }
+      ]
+    },
+    {
+      "tokenizer": "RegexTokenizer",
+      "vocab_size": 320,
+      "round_trip_checks": 6,
+      "save_load_checks": 6,
+      "held_out_utf8_bytes_per_token": 1.2962962962962963,
+      "samples": [
+        {
+          "text": "模型预测结果需要验证，医学研究重视实验。",
+          "utf8_bytes": 60,
+          "tokens": 43
+        },
+        {
+          "text": "Machine learning research needs careful evaluation.",
+          "utf8_bytes": 51,
+          "tokens": 34
+        },
+        {
+          "text": "AI与医学：score=0.87; next step? 🧠",
+          "utf8_bytes": 41,
+          "tokens": 38
+        },
+        {
+          "text": "",
+          "utf8_bytes": 0,
+          "tokens": 0
+        },
+        {
+          "text": "?",
+          "utf8_bytes": 1,
+          "tokens": 1
+        },
+        {
+          "text": "你好，世界！🙂",
+          "utf8_bytes": 22,
+          "tokens": 19
+        }
+      ]
+    }
+  ]
+}

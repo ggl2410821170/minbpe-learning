@@ -1,0 +1,3 @@
+regex==2026.9.29
+tiktoken==0.14.0
+pytest==9.1.1
